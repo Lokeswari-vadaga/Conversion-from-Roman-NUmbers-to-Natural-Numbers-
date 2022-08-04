@@ -1,7 +1,7 @@
 # Conversion-from-Roman-NUmbers-to-Natural-Numbers-
 import java.util.Scanner;
 
-class Solute {
+class Roman {
     public void romanToInt(String s) {
         int i = 0;
         int sum = 0;
@@ -79,7 +79,7 @@ class Solute {
     }
 }
 
-public class Solution2 {
+public class RomanToNUmbers {
     public static void main(String[] args) {
         Solute s = new Solute();
         try (Scanner sc = new Scanner(System.in)) {
